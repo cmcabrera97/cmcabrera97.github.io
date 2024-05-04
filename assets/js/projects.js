@@ -14,7 +14,7 @@ let render_projects = (slug) => {
             image: 'assets/images/mentors.jpg',
             link: 'n/a',
             title: 'Featured Topic 1 - Project 1',
-            demo: 'https://mporter.co',
+            demo: false,
             technologies: ['Flask', 'Celery', 'Python'],
             description: "Description",
             categories: ['featured', 'webdev']
@@ -23,7 +23,7 @@ let render_projects = (slug) => {
             image: 'assets/images/mobile-landscape.jpg',
             link: 'n/a',
             title: 'Featured Topic 1 - Project 2',
-            demo: 'http://wall-e-jekyll.github.io/',
+            demo: false,
             technologies: ['Semantic UI', 'Jekyll'],
             description: "Description",
             categories: ['featured', 'webdev']
@@ -41,7 +41,7 @@ let render_projects = (slug) => {
             image: 'assets/images/mpw.jpg',
             link: 'n/a',
             title: 'Featured Topic 3 - Project 1',
-            demo: 'https://www.nagekar.com/mpw',
+            demo: false,
             technologies: ['Semantic UI', 'CSS3'],
             description: "Description",
             categories: ['featured', 'security']
@@ -86,7 +86,7 @@ let render_projects = (slug) => {
             image: 'assets/images/elementary.png',
             link: 'n/a',
             title: 'Topic 1 - Project 4',
-            demo: 'https://elementary-jekyll.github.io/',
+            demo: false,
             technologies: ['Jekyll', 'CSS3'],
             description: "Description",
             categories: ['webdev']
@@ -95,7 +95,7 @@ let render_projects = (slug) => {
             image: 'assets/images/soot-spirits.png',
             link: 'n/a',
             title: 'Topic 1 - Project 5',
-            demo: 'https://sootspirits.github.io',
+            demo: false,
             technologies: ['Jekyll', 'CSS3'],
             description: "Description",
             categories: ['webdev']
