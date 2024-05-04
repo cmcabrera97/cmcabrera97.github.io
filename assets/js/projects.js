@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'Featured Topic 1 - Project 1',
             demo: 'https://mporter.co',
             technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
+            description: "Description",
             categories: ['featured', 'webdev']
         },
         {
@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             title: 'Featured Topic 1 - Project 2',
             demo: 'http://wall-e-jekyll.github.io/',
             technologies: ['Semantic UI', 'Jekyll'],
-            description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
+            description: "Description",
             categories: ['featured', 'webdev']
         },
         {
@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: 'Featured Topic 2 - Project 1',
             demo: false,
             technologies: ['Android', 'OpenCV'],
-            description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
+            description: "Description",
             categories: ['featured', 'native']
         },
         {
@@ -43,7 +43,7 @@ let render_projects = (slug) => {
             title: 'Featured Topic 3 - Project 1',
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Semantic UI', 'CSS3'],
-            description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
+            description: "Description",
             categories: ['featured', 'security']
         },
         {
@@ -52,7 +52,7 @@ let render_projects = (slug) => {
             title: 'Topic 2 - Project 2',
             demo: false,
             technologies: ['Python'],
-            description: "Ever wondered how many times a URL has been shared on popular social networks?",
+            description: "Description",
             categories: ['native']
         },
         {
@@ -61,25 +61,25 @@ let render_projects = (slug) => {
             title: 'Topic 2 - Project 3',
             demo: false,
             technologies: ['C++', 'Qt'],
-            description: "Native GUI wrapper for GNU coreutils tool 'dd'",
+            description: "Description",
             categories: ['native']
         },
         {
             image: 'assets/images/raspberry-pi-monitor.png',
             link: 'n/a',
-            title: 'Topic 1,4 - Project 3',
+            title: 'Topic 1,4 - Project 3,1',
             demo: false,
             technologies: ['python', 'flask'],
-            description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
+            description: "Description",
             categories: ['webdev', 'diy']
         },
         {
             image: 'assets/images/s3scan.png',
             link: 'n/a',
-            title: 'Topic 2,3 - Project 4',
+            title: 'Topic 2,3 - Project 4,2',
             demo: false,
             technologies: ['python'],
-            description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
+            description: "Description",
             categories: ['native', 'security']
         },
         {
@@ -88,7 +88,7 @@ let render_projects = (slug) => {
             title: 'Topic 1 - Project 4',
             demo: 'https://elementary-jekyll.github.io/',
             technologies: ['Jekyll', 'CSS3'],
-            description: "Elementary is a zero Javascript and minimal CSS ultra lightweight Jekyll theme for those of you who love simplicity.",
+            description: "Description",
             categories: ['webdev']
         },
         {
@@ -97,7 +97,7 @@ let render_projects = (slug) => {
             title: 'Topic 1 - Project 5',
             demo: 'https://sootspirits.github.io',
             technologies: ['Jekyll', 'CSS3'],
-            description: "A simple responsive two column Jekyll theme. Great for personal blog and basic portfolio website.",
+            description: "Description",
             categories: ['webdev']
         },
         {
@@ -106,7 +106,7 @@ let render_projects = (slug) => {
             title: 'Topic 2 - Project 5',
             demo: false,
             technologies: ['Python', 'Sockets'],
-            description: "Simple terminal group chat based on native sockets using Python.",
+            description: "Description",
             categories: ['native']
         },
         {
@@ -115,25 +115,25 @@ let render_projects = (slug) => {
             title: 'Topic 4 - Project 1',
             demo: false,
             technologies: ['DIY'],
-            description: "Reusing a dead laptop's LCD panel as a secondary monitor.",
+            description: "Description",
             categories: ['diy']
         },
         {
             image: 'assets/images/nextcloud-enc.png',
             link: 'n/a',
-            title: 'Topic 4,3 - Project 2',
+            title: 'Topic 4,3 - Project 2,3',
             demo: false,
             technologies: ['NextCloud', 'GnuPG'],
-            description: "Self hosted encrypted cloud setup with Nextcloud and GnuPG.",
+            description: "Description",
             categories: ['diy', 'security']
         },
         {
             image: 'assets/images/google-cloud-backup.png',
             link: 'n/a',
-            title: 'Topic 4,3 - Project 3',
+            title: 'Topic 4,3 - Project 3,4',
             demo: false,
             technologies: ['NextCloud', 'Duplicity'],
-            description: "Create automated encrypted incremental backups of data. Sync everything securely to Google Cloud.",
+            description: "Description",
             categories: ['diy', 'security']
         },
         {
@@ -142,7 +142,7 @@ let render_projects = (slug) => {
             title: 'Topic 4 - Project 4',
             demo: false,
             technologies: ['FTP', 'DIY'],
-            description: "Host a local cloud server with a Raspberry Pi and a spare hard disk. Access data instantaneously on any device on the network.",
+            description: "Description",
             categories: ['diy']
         },
         {
@@ -151,7 +151,7 @@ let render_projects = (slug) => {
             title: 'Topic 2 - Project 6',
             demo: false,
             technologies: ['Electron', 'Javascript'],
-            description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
+            description: "Description",
             categories: ['native']
         },
     ]
