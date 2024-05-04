@@ -206,7 +206,7 @@ img {
 }
 
 .section-wrapper:nth-child(odd) {
-  background: url(../images/background.png);
+  background: url(../images/background2.png);
   background-repeat: repeat;
 }
 
@@ -423,7 +423,7 @@ img {
 }
 
 #nav {
-  background: url(../images/background.png);
+  background: url(../images/background1.png);
   background-repeat: repeat;
 }
 
