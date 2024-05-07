@@ -118,7 +118,7 @@ img {
 
   display: grid;
   -ms-grid-columns: auto auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto auto;
+      grid-template-columns: 150px 150px 150px 150px 150px 150px;
   grid-column-gap: 10px;
   
   margin: 0 auto;
