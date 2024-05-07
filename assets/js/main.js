@@ -26,6 +26,10 @@ function blog_posts() {
             url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Rw2fp_IAAAAJ&citation_for_view=Rw2fp_IAAAAJ:d1gkVwhDpl0C',
             title: 'Brain Tumor detection using Proper Orthogonal Decomposition integrated with Deep Learning Networks',
         },
+	{
+            url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Rw2fp_IAAAAJ&citation_for_view=Rw2fp_IAAAAJ:u-x6o8ySG0sC',
+            title: 'Modeling Boundary Layer Separation Over Bio-Inspired Organized Surface Roughness Elements',
+        },
     ];
 
     let post_html = [];
