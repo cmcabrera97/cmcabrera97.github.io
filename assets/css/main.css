@@ -168,7 +168,7 @@ img {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
 
