@@ -152,6 +152,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four equal columns */
   grid-gap: 25px; /* Set the gap between columns */
+  align-items: start; /* Align items at the start of the grid tracks */
 }
 
 .technical-skills {
