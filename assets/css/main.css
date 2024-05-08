@@ -169,15 +169,16 @@ img {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 25px;
 }
 
 .project-wrapper {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr auto 1fr; /* Two columns with equal width and space on either side */
-  grid-gap: 25px; /* Set the gap between columns */
-  align-items: start; /* Align items at the start of the grid tracks */
-  margin: 0 50px; /* Add margins of 50px on the left and right */
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  margin: 0 auto; /* Center the wrapper horizontally */
 }
 
 .full-width {
