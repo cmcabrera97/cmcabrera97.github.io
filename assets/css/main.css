@@ -140,6 +140,14 @@ img {
   grid-gap: 20px;
 }
 
+.certs-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-gap: 25px;
+}
+
 .technical-skills {
   width: 90%;
   margin: 0 auto;
