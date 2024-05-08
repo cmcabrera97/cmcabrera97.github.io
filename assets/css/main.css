@@ -273,6 +273,7 @@ img {
   grid-template-columns: repeat(6, 1fr); /* Four equal columns */
   grid-gap: 25px; /* Set the gap between columns */
   align-items: start; /* Align items at the start of the grid tracks */
+  margin: 50px 0; /* Add a margin of 50px above and below */
 }
 
 .projects-grid {
