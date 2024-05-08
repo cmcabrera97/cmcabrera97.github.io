@@ -600,12 +600,10 @@ a {
   .projects-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-    grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    margin: 10% 10%; /* Center the wrapper horizontally */
   }
 }
 
