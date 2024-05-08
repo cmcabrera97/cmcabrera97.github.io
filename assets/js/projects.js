@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Featured Topic 1 - Project 1',
             demo: false,
@@ -20,7 +20,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'webdev']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Featured Topic 1 - Project 2',
             demo: false,
@@ -29,7 +29,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'webdev']
         },
         {
-            image: 'assets/images/collage.jpg',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Featured Topic 2 - Project 1',
             demo: false,
@@ -38,7 +38,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'native']
         },
         {
-            image: 'assets/images/mpw.jpg',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Featured Topic 3 - Project 1',
             demo: false,
@@ -47,7 +47,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'security']
         },
         {
-            image: 'assets/images/social-share-count.jpeg',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 2 - Project 2',
             demo: false,
@@ -56,7 +56,7 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/data-destroyer.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 2 - Project 3',
             demo: false,
@@ -65,7 +65,7 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/raspberry-pi-monitor.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 1,4 - Project 3,1',
             demo: false,
@@ -74,7 +74,7 @@ let render_projects = (slug) => {
             categories: ['webdev', 'diy']
         },
         {
-            image: 'assets/images/s3scan.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 2,3 - Project 4,2',
             demo: false,
@@ -83,7 +83,7 @@ let render_projects = (slug) => {
             categories: ['native', 'security']
         },
         {
-            image: 'assets/images/elementary.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 1 - Project 4',
             demo: false,
@@ -92,7 +92,7 @@ let render_projects = (slug) => {
             categories: ['webdev']
         },
         {
-            image: 'assets/images/soot-spirits.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 1 - Project 5',
             demo: false,
@@ -101,7 +101,7 @@ let render_projects = (slug) => {
             categories: ['webdev']
         },
         {
-            image: 'assets/images/python-chat.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 2 - Project 5',
             demo: false,
@@ -110,7 +110,7 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/old-lcd.jpg',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 4 - Project 1',
             demo: false,
@@ -119,7 +119,7 @@ let render_projects = (slug) => {
             categories: ['diy']
         },
         {
-            image: 'assets/images/nextcloud-enc.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 4,3 - Project 2,3',
             demo: false,
@@ -128,7 +128,7 @@ let render_projects = (slug) => {
             categories: ['diy', 'security']
         },
         {
-            image: 'assets/images/google-cloud-backup.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 4,3 - Project 3,4',
             demo: false,
@@ -137,7 +137,7 @@ let render_projects = (slug) => {
             categories: ['diy', 'security']
         },
         {
-            image: 'assets/images/pi-cloud.jpg',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 4 - Project 4',
             demo: false,
@@ -146,7 +146,7 @@ let render_projects = (slug) => {
             categories: ['diy']
         },
         {
-            image: 'assets/images/koalamate.png',
+            image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
             title: 'Topic 2 - Project 6',
             demo: false,
