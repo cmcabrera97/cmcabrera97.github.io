@@ -149,8 +149,9 @@ img {
 }
 
 .cert-grid {
-    column-count: 4; /* Set the number of columns */
-    column-gap: 25px; /* Set the gap between columns */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  grid-gap: 25px; /* Set the gap between columns */
 }
 
 .technical-skills {
