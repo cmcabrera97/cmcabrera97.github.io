@@ -179,9 +179,9 @@ img {
 .projects-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 25px;
+  -ms-grid-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
   margin: 10% auto; /* Center the wrapper horizontally */
   width: 80%; /* Set the width of the wrapper */
 }
@@ -189,9 +189,9 @@ img {
 .project-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 25px;
+  -ms-grid-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
   margin: 10% 10%; /* Center the wrapper horizontally */
 }
 
