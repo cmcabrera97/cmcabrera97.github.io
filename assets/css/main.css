@@ -174,7 +174,7 @@ img {
 
 .project-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  grid-template-columns: repeat(2, 1fr); /* Four equal columns */
   grid-gap: 25px; /* Set the gap between columns */
   align-items: start; /* Align items at the start of the grid tracks */
 }
