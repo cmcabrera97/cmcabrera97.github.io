@@ -182,7 +182,8 @@ img {
   -ms-grid-columns: 50% 50%;
   grid-template-columns: 1fr 1fr;
   grid-gap: 25px;
-  margin: 10% 10%; /* Center the wrapper horizontally */
+  margin: 10% auto; /* Center the wrapper horizontally */
+  width: 80%; /* Set the width of the wrapper */
 }
 
 .project-wrapper {
