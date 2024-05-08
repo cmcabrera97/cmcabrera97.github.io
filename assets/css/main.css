@@ -478,6 +478,17 @@ a {
   width: 60%;
 }
 
+.project-technologies2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin: 20px auto; /* Center the container horizontally */
+  grid-gap: 5px;
+  grid-row-gap: 10px;
+  width: 60%;
+}
+
 .project-technology {
   border: 1px solid #222;
   border-radius: 2px;
