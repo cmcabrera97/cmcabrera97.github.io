@@ -159,22 +159,10 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Four equal columns */
     grid-gap: 25px; /* Set the gap between columns */
-    align-items: start; /* Align items at the start of the grid tracks */
+    align-items: center; /* Align items at the start of the grid tracks */
 }
 
 .image-grid img {
-    max-width: 100%; /* Ensure images don't exceed their container */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.image-grid2 {
-    display: flex; /* Use flexbox */
-    justify-content: space-between; /* Distribute items along the main axis with equal space between them */
-    align-items: start; /* Align items at the start of the cross axis */
-    margin-bottom: 25px; /* Add some margin at the bottom */
-}
-
-.image-grid2 img {
     max-width: 100%; /* Ensure images don't exceed their container */
     height: auto; /* Maintain aspect ratio */
 }
