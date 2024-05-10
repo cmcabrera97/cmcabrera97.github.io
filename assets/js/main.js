@@ -40,7 +40,7 @@ function blog_posts() {
         
         if(post.tags) {
             tags = post.tags.map(tag => {
-                return `<a href="https://www.nagekar.com/tags#${tag}">${tag}</a>`
+                return `<a href="#${tag}">${tag}</a>`
             })
         }
 
@@ -68,7 +68,7 @@ function blog_posts() {
 
         <div class="blog-link">
 
-            <h3><a href="https://scholar.google.com/citations?user=Rw2fp_IAAAAJ&hl=en&oi=ao">Visit Google Scholar</a></h3>            
+            <h3><a href="https://scholar.google.com/citations?user=Rw2fp_IAAAAJ&hl=en&oi=ao">Visit Google Scholar: Cristiano Cabrera</a></h3>            
 
         </div>
 
