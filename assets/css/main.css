@@ -167,6 +167,18 @@ img {
     height: auto; /* Maintain aspect ratio */
 }
 
+.image-grid2 {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items along the main axis with equal space between them */
+    align-items: start; /* Align items at the start of the cross axis */
+    margin-bottom: 25px; /* Add some margin at the bottom */
+}
+
+.image-grid2 img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .technical-skills {
   width: 90%;
   margin: 0 auto;
