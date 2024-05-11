@@ -13,8 +13,8 @@ let skill8 = "Remote Sensing"
 let skill9 = "Lesson Planning"
 let skill10 = "Mentoring"
 let skill11 = "Nanoscribe"
+let skill12 = "Soldering"
 
-let skill12 = "Skill12"
 let skill13 = "Skill13"
 let skill14 = "Skill14"
 let skill15 = "Skill15"
@@ -31,7 +31,7 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             // Project 1 - Drafing and Machining Machinist Clamp
-            image: 'assets/images/Proj_Pic.png',
+            image: 'assets/images/Machinist Clamp.png',
             link: 'n/a',
             title: 'Drafing and Machining Machinist Clamp',
             demo: false,
@@ -41,11 +41,11 @@ let render_projects = (slug) => {
         },
         {
             // Project 2 - Senior Design: Self Heating Lunchbox
-            image: 'assets/images/Proj_Pic.png',
+            image: 'assets/images/Senior Design 1.png',
             link: 'n/a',
             title: 'Senior Design: Self Heating Lunchbox',
             demo: false,
-            technologies: [skill4, skill5, skill6],
+            technologies: [skill4, skill5, skill6, skill12],
             description: "Description",
             categories: ['featured', 'webdev']
         },
@@ -71,7 +71,7 @@ let render_projects = (slug) => {
         },
         {
             // Project 5 - Summer Research Institute Mentoring
-            image: 'assets/images/Proj_Pic.png',
+            image: 'assets/images/Mentoring 3.HEIC',
             link: 'n/a',
             title: 'Summer Research Institute Mentoring',
             demo: false,
@@ -81,7 +81,7 @@ let render_projects = (slug) => {
         },
         {
             // Project 6 - Sargassum Remote Sensing
-            image: 'assets/images/Proj_Pic.png',
+            image: 'assets/images/Mentoring 2.png',
             link: 'n/a',
             title: 'Sargassum Remote Sensing',
             demo: false,
