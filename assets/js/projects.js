@@ -13,8 +13,8 @@ let skill8 = "Remote Sensing"
 let skill9 = "Lesson Planning"
 let skill10 = "Mentoring"
 let skill11 = "Nanoscribe"
-let skill12 = "Soldering"
 
+let skill12 = "Skill12"
 let skill13 = "Skill13"
 let skill14 = "Skill14"
 let skill15 = "Skill15"
@@ -45,7 +45,7 @@ let render_projects = (slug) => {
             link: 'n/a',
             title: 'Senior Design: Self Heating Lunchbox',
             demo: false,
-            technologies: [skill4, skill5, skill6, skill12],
+            technologies: [skill4, skill5, skill6],
             description: "Description",
             categories: ['featured', 'webdev']
         },
@@ -81,7 +81,7 @@ let render_projects = (slug) => {
         },
         {
             // Project 6 - Sargassum Remote Sensing
-            image: 'assets/images/Mentoring 2.png',
+            image: 'assets/images/Mentoring 2.JPG',
             link: 'n/a',
             title: 'Sargassum Remote Sensing',
             demo: false,
