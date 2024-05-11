@@ -2,17 +2,18 @@ $(document).ready(() => {
     render_projects('featured');
 })
 
-let skill1 = "Skill1"
-let skill2 = "Skill2"
-let skill3 = "Skill3"
-let skill4 = "Skill4"
-let skill5 = "Skill5"
-let skill6 = "Skill6"
-let skill7 = "Skill7"
-let skill8 = "Skill8"
-let skill9 = "Skill9"
-let skill10 = "Skill10"
-let skill11 = "Skill11"
+let skill1 = "AutoCAD"
+let skill2 = "Technical Drawing"
+let skill3 = "Machining"
+let skill4 = "Arduino"
+let skill5 = "Inventor"
+let skill6 = "3D Printing"
+let skill7 = "Python"
+let skill8 = "Remote Sensing"
+let skill9 = "Lesson Planning"
+let skill10 = "Mentoring"
+let skill11 = "Nanoscribe"
+
 let skill12 = "Skill12"
 let skill13 = "Skill13"
 let skill14 = "Skill14"
@@ -29,146 +30,62 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            // Project 1 - Drafing and Machining Machinist Clamp
             image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
-            title: 'Featured Topic 1 - Project 1',
+            title: 'Drafing and Machining Machinist Clamp',
             demo: false,
             technologies: [skill1, skill2, skill3],
             description: "Description",
             categories: ['featured', 'webdev']
         },
         {
+            // Project 2 - Senior Design: Self Heating Lunchbox
             image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
-            title: 'Featured Topic 1 - Project 2',
+            title: 'Senior Design: Self Heating Lunchbox',
             demo: false,
-            technologies: [skill4, skill5],
+            technologies: [skill4, skill5, skill6],
             description: "Description",
             categories: ['featured', 'webdev']
         },
         {
+            // Project 3 - Procedural Microstructure Manufacturing
             image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
-            title: 'Featured Topic 2 - Project 1',
+            title: 'Procedural Microstructure Manufacturing',
             demo: false,
-            technologies: [skill6, skill7],
+            technologies: [skill7, skill11],
             description: "Description",
             categories: ['featured', 'native']
         },
         {
+            // Project 4 - Removable Test Section
             image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
-            title: 'Featured Topic 3 - Project 1',
+            title: 'Removable Test Section',
             demo: false,
-            technologies: [skill4, skill8],
+            technologies: [skill5, skill2],
             description: "Description",
             categories: ['featured', 'security']
         },
         {
+            // Project 5 - Summer Research Institute Mentoring
             image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
-            title: 'Topic 2 - Project 2',
-            demo: false,
-            technologies: [skill3],
-            description: "Description",
-            categories: ['native']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 2 - Project 3',
+            title: 'Summer Research Institute Mentoring',
             demo: false,
             technologies: [skill9, skill10],
             description: "Description",
             categories: ['native']
         },
         {
+            // Project 6 - Sargassum Remote Sensing
             image: 'assets/images/Proj_Pic.png',
             link: 'n/a',
-            title: 'Topic 1,4 - Project 3,1',
+            title: 'Sargassum Remote Sensing',
             demo: false,
-            technologies: [skill3, skill1],
-            description: "Description",
-            categories: ['webdev', 'diy']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 2,3 - Project 4,2',
-            demo: false,
-            technologies: [skill3],
-            description: "Description",
-            categories: ['native', 'security']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 1 - Project 4',
-            demo: false,
-            technologies: [skill5, skill8],
-            description: "Description",
-            categories: ['webdev']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 1 - Project 5',
-            demo: false,
-            technologies: [skill5, skill8],
-            description: "Description",
-            categories: ['webdev']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 2 - Project 5',
-            demo: false,
-            technologies: [skill3, skill11],
-            description: "Description",
-            categories: ['native']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 4 - Project 1',
-            demo: false,
-            technologies: [skill12],
-            description: "Description",
-            categories: ['diy']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 4,3 - Project 2,3',
-            demo: false,
-            technologies: [skill13, skill14],
-            description: "Description",
-            categories: ['diy', 'security']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 4,3 - Project 3,4',
-            demo: false,
-            technologies: [skill13, skill15],
-            description: "Description",
-            categories: ['diy', 'security']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 4 - Project 4',
-            demo: false,
-            technologies: [skill16, skill12],
-            description: "Description",
-            categories: ['diy']
-        },
-        {
-            image: 'assets/images/Proj_Pic.png',
-            link: 'n/a',
-            title: 'Topic 2 - Project 6',
-            demo: false,
-            technologies: [skill17, skill18],
+            technologies: [skill7, skill8],
             description: "Description",
             categories: ['native']
         },
