@@ -294,9 +294,9 @@ img {
 .proj-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* Four equal columns */
-  grid-gap: 25px; /* Set the gap between columns */
+  grid-gap: 5%; /* Set the gap between columns */
   align-items: start; /* Align items at the start of the grid tracks */
-  margin: 50px 0; /* Add a margin of 50px above and below */
+  margin: 10% 0%; /* Add a margin of 50px above and below */
 }
 
 .projects-grid {
@@ -603,7 +603,7 @@ a {
     display: grid;
     -ms-grid-columns: 50% 50%;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 25px;
+    grid-gap: 5%;
     margin: 10% 10%; /* Center the wrapper horizontally */
   }
 }
