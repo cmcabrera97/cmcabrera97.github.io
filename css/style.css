@@ -185,7 +185,8 @@
 				margin-bottom: 2em;
 			}
 
-			.image-span {
+			.image.span
+			{
 			    display: grid;
 			    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
 			    gap: 2em;
