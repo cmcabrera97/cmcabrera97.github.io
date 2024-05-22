@@ -1034,7 +1034,7 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/banner.jpg);
+		background-image: rgba(100, 100, 100, 1.0);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
