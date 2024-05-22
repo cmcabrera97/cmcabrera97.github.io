@@ -184,6 +184,15 @@
 				width: 100%;
 				margin-bottom: 2em;
 			}
+
+			.image-span {
+			    display: grid;
+			    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+			    gap: 2em;
+			    justify-items: center;
+			    align-items: center;
+			    margin-bottom: 2em;
+			}
 			
 			.image.left
 			{
