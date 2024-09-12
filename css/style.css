@@ -781,7 +781,7 @@
 	#header
 	{
 		position: relative;
-		background: url(../images/myHeader.jpg) no-repeat bottom center;
+		background: url(../images/myHeader2.jpg) no-repeat bottom center;
 		background-attachment: fixed;
 		background-size: cover;
 		text-align: center;
@@ -996,7 +996,7 @@
 	{
 		position: relative;
 		text-align: center;
-		background: url(../images/myHeader.jpg) no-repeat center center;
+		background: url(../images/myHeader2.jpg) no-repeat center center;
 		background-attachment: fixed;
 		background-size: cover;
 	}
